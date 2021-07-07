@@ -20,6 +20,8 @@ public class GameContext : MVCSContext
         //command
 
         //view 
+        mediationBinder.Bind<StartView>().To<StartMediator>();
+
         commandBinder.Bind(ContextEvent.START).To<StartCommand>().Once();
     }
 }

@@ -6,7 +6,16 @@ public class Consts
 {
   
 }
-public  enum PanelType
+public enum PanelType
 {
     StartPanel
+}
+public enum CommandEvent
+{
+    ChangeMulitiple
+}
+
+public enum ViewEvent
+{
+    ChangeMulitiple
 }
