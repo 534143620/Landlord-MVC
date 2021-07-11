@@ -24,14 +24,14 @@ public class StartMediator : EventMediator
     {
         //1. 改model
         //2. 删除面板
-        dispatcher.Dispatch(CommandEvent.ChangeMulitiple, 1);
+        dispatcher.Dispatch(CommandEvent.ChangeMulitiple, 2);
         Destroy(StartView.gameObject);
         Debug.Log("1");
     }
 
     private void OnBuJiaBeiClick()
     {
-        dispatcher.Dispatch(CommandEvent.ChangeMulitiple, 2);
+        dispatcher.Dispatch(CommandEvent.ChangeMulitiple, 1);
         Destroy(StartView.gameObject);
         Debug.Log("2");
     }

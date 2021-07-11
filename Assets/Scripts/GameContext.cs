@@ -18,6 +18,7 @@ public class GameContext : MVCSContext
         injectionBinder.Bind<IntegrationModel>().To<IntegrationModel>().ToSingleton();
 
         //command
+        commandBinder.Bind(CommandEvent.ChangeMulitiple).To<ChangeMulitipleCommand>();
 
         //view 
         mediationBinder.Bind<StartView>().To<StartMediator>();
