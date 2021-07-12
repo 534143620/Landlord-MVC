@@ -20,6 +20,30 @@ public class CardUI : MonoBehaviour
     }
 
     /// <summary>
+    /// 是否被点击
+    /// </summary>
+    public bool IsSelected {
+        get
+        {
+            return isSelected;
+        }
+
+        set
+        {
+            if (card.BelongTo != CharacterType.Player || isSelected == value)
+                return;
+
+
+            if (value)
+                transform.localPosition += Vector3.up * 10;
+            else
+                transform.localPosition -= Vector3.up * 10;
+
+            isSelected = value;
+        }
+    }
+
+    /// <summary>
     /// 设置图片
     /// </summary>
     public void SetImage()
@@ -41,5 +65,30 @@ public class CardUI : MonoBehaviour
     public void SetImageAgain()
     {
         image.sprite = Resources.Load<Sprite>("Poker/CardBack");
+    }
+
+    /// <summary>
+    /// 设置为位置以及偏移
+    /// </summary>
+    /// <param name="parent">父物体</param>
+    /// <param name="index">子物体索引</param>
+    public void SetPosition(Transform parent,int index)
+    {
+        transform.SetParent(parent, false);
+        transform.SetSiblingIndex(index);
+
+        if(card.BelongTo == CharacterType.Desk || card.BelongTo == CharacterType.Player)
+        {
+            transform.localPosition = Vector3.right * index;
+
+            //防止还原
+            if(isSelected)
+                transform.localPosition += Vector3.up * 10;
+
+            if(card.BelongTo == CharacterType.ComputerLeft || card.BelongTo == CharacterType.ComputerRight)
+            {
+                transform.localPosition = Vector3.down * 8 + Vector3.left * 8;
+            }
+        }
     }
 }
