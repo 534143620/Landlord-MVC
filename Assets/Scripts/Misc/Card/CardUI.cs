@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,6 +8,7 @@ public class CardUI : MonoBehaviour
 {
     Card card;
     Image image;
+    Button btn;
     bool isSelected;
 
     public Card Card
@@ -90,5 +92,32 @@ public class CardUI : MonoBehaviour
                 transform.localPosition = Vector3.down * 8 + Vector3.left * 8;
             }
         }
+    }
+
+    /// <summary>
+    /// 初始化数据
+    /// </summary>
+    public void OnSpawn()
+    {
+        image = GetComponent<Image>();
+        btn = GetComponent<Button>();
+        btn.onClick.AddListener(onClickBtn);
+    }
+
+    private void onClickBtn()
+    {
+        if (card.BelongTo == CharacterType.Player)
+            IsSelected = !IsSelected;
+    }
+
+    /// <summary>
+    /// 回收数据
+    /// </summary>
+    public void OnDespawn()
+    {
+        btn.onClick.RemoveListener(onClickBtn);
+        isSelected = false;
+        image.sprite = null;
+        card = null;
     }
 }
