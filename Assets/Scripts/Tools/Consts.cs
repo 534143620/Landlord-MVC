@@ -71,6 +71,7 @@ public enum Weight
 /// </summary>
 public enum CardType
 {
+    None,
     Single,     //单
     Double,     //对
     Straight,   //顺子
