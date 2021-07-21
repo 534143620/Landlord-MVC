@@ -27,8 +27,8 @@ public enum CharacterType
 {
     Library,
     Player,
-    ComputerLeft,
     ComputerRight,
+    ComputerLeft,
     Desk
 }
 
