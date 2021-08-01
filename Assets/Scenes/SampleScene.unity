@@ -513,8 +513,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: InteractionPanel
       objectReference: {fileID: 0}
+    - target: {fileID: 1650279943059368181, guid: 43c9ae56c7ee928439e1fb78e7be34e7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3019342175944867983, guid: 43c9ae56c7ee928439e1fb78e7be34e7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4781519798938498292, guid: 43c9ae56c7ee928439e1fb78e7be34e7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235033518487300921, guid: 43c9ae56c7ee928439e1fb78e7be34e7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078756571771516370, guid: 43c9ae56c7ee928439e1fb78e7be34e7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43c9ae56c7ee928439e1fb78e7be34e7, type: 3}
+--- !u!1 &1650279941632564960 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1650279943059368181, guid: 43c9ae56c7ee928439e1fb78e7be34e7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1650279941632564959}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1650279941632564961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650279941632564960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1268e305cf5944f45b3ace1a2fd423fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5578815468963938420
 PrefabInstance:
   m_ObjectHideFlags: 0
