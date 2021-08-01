@@ -60,13 +60,14 @@ public class InteractionView : View
     /// <summary>
     /// 显示出牌按钮
     /// </summary>
-    public void ActiveDealAndPass()
+    public void ActiveDealAndPass(bool isActive = true)
     {
         Player.gameObject.SetActive(false);
         Grab.gameObject.SetActive(false);
         DisGrab.gameObject.SetActive(false);
         Deal.gameObject.SetActive(true);
         Pass.gameObject.SetActive(true);
+        Pass.interactable = isActive;   //有时候会不能Pass
     }
 
 }

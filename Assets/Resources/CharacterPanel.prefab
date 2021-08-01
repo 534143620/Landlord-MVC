@@ -618,6 +618,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7347610152613544850}
+  - component: {fileID: 1455220115}
   m_Layer: 5
   m_Name: ComputerRight
   m_TagString: Untagged
@@ -649,6 +650,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1455220115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7347610152613544849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d1d34fd3b36e6d498f3e4ff85db130d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  head: {fileID: 7347610153898001866}
+  score: {fileID: 7347610153815303477}
+  remain: {fileID: 7347610152250534321}
 --- !u!1 &7347610152722274641
 GameObject:
   m_ObjectHideFlags: 0
@@ -1143,6 +1159,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7347610153212221475}
+  - component: {fileID: 1811390422}
   m_Layer: 5
   m_Name: ComputerLeft
   m_TagString: Untagged
@@ -1174,6 +1191,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1811390422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7347610153212221474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d1d34fd3b36e6d498f3e4ff85db130d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  head: {fileID: 7347610153511012073}
+  score: {fileID: 7347610154108120689}
+  remain: {fileID: 7347610153597525757}
 --- !u!1 &7347610153392825994
 GameObject:
   m_ObjectHideFlags: 0
@@ -1687,6 +1719,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7347610153633943752}
+  - component: {fileID: 1586808982}
   m_Layer: 5
   m_Name: Player
   m_TagString: Untagged
@@ -1717,6 +1750,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1586808982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7347610153633943799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d1d34fd3b36e6d498f3e4ff85db130d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  head: {fileID: 7347610152722274643}
+  score: {fileID: 7347610153053794334}
+  remain: {fileID: 7347610153067213605}
 --- !u!1 &7347610153646334059
 GameObject:
   m_ObjectHideFlags: 0
