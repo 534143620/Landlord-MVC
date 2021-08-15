@@ -3,14 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InteractionMediator : EventMediator
+public class CharacterMediator : Mediator
 {
     public override void OnRegister()
     {
-
+       
     }
     public override void OnRemove()
     {
-
+      
     }
 }

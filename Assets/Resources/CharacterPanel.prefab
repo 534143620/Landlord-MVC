@@ -541,6 +541,7 @@ GameObject:
   - component: {fileID: 7347610152583347276}
   - component: {fileID: 7347610152583347278}
   - component: {fileID: 7347610152583347277}
+  - component: {fileID: 5217176704087791687}
   m_Layer: 5
   m_Name: CharacterPanel
   m_TagString: Untagged
@@ -609,6 +610,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5217176704087791687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7347610152583347275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62dd0291c4ec45e43b4628795bfb44e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7347610152613544849
 GameObject:
   m_ObjectHideFlags: 0
@@ -824,6 +837,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7347610152900422218}
+  - component: {fileID: 7793968408333990039}
   m_Layer: 5
   m_Name: Desk
   m_TagString: Untagged
@@ -855,6 +869,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &7793968408333990039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7347610152900422217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02e7679baccd0c349bdc07ad56acd3c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7347610152974560375
 GameObject:
   m_ObjectHideFlags: 0
