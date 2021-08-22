@@ -16,6 +16,7 @@ public class CharacterBase : MonoBehaviour
     /// </summary>
     public List<Card> CardList { get => cardList;}
 
+    //123
     /// <summary>
     /// 是否有牌
     /// </summary>
