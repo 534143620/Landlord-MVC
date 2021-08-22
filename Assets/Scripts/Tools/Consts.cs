@@ -93,3 +93,14 @@ public enum Identity
     Farmer,
     Landlord
 }
+
+/// <summary>
+/// Desk生成手牌的位置
+/// </summary>
+public enum ShowPoint
+{
+    Desk,
+    Player,
+    ComputerRight,
+    ComputerLeft
+}

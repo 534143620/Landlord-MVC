@@ -24,8 +24,7 @@ public class PlayerControl : CharacterBase
     public override void AddCard(Card card, bool selected)
     {
         base.AddCard(card, selected);
-        characterUI.SetRemain(CardCount);
-        
+        characterUI.SetRemain(CardCount); 
     }
 
     public override Card DealCard()
