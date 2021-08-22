@@ -120,4 +120,9 @@ public class CardUI : MonoBehaviour
         image.sprite = null;
         card = null;
     }
+
+    public void Destroy()
+    {
+        Lean.Pool.LeanPool.Despawn(gameObject);
+    }
 }
